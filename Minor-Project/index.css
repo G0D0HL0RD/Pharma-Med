@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	background-color: #EAEAEA;
+}
+#header{
+	background-color: #08d9d6;
+	text-align: right;
+	
+}
+#header>a{
+	text-decoration: none;
+	color: black;
+	padding:20px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header form{
+	display: inline-block;
+}
+#header #login{
+	background-color: #252a34;;
+	padding: 5px;
+	color: #EAEAEA;
+	border: 0;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
