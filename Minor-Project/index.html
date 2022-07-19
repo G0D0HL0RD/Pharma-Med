@@ -11,35 +11,84 @@
 	<div id="header">
 		<a href="privacy.html">Privacy Policy</a>
 		<a href="t/c">Terms & Conditions</a>
-		
+		<img src="images/user.png" id="user" alt="user-img" height="18px">
 		<form method="post" action="login.php">
-			<button id="login"><img src="images/user.png" id="user" alt="user-img" height="18px">Login/SignUp</button>
+			<button id="login">Login/SignUp</button>
 		</form>
 	</div>
 	<div id="logo-bar">
 		<div class="logo">
 			<img src="images/medicine.png" alt="medicine-logo" height="130px">
-			<h1>PHARMA-MED</h1>
+			<h1>PHARMA</h1>
+			<h2>MED</h1>
 		</div>
 		<div  class="search-bar">
 			<form method="post" action="search.php">
-				<input type="text" id="search" name="search" placeholder="Search medicines">
-				<button id="search-box" type="submit">Search</button>
+				<input type="text" id="search" name="search" placeholder="Search for medicines & wellness products....">
+				<button id="search-box" type="submit"><img src="images/search-interface-symbol.png" alt="search icon" height="15px"></button>
 			</form>
 		</div>
 
 	</div>
 	<div id="nav-bar">
 		<ul>
-			<li>Home</li>
-			<li>Shop Now</li>
-			<li>Orders</li>
-			<li>Daily Offers</li>
-			<li>News</li>
-			<li>About us</li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Shop Now</a></li>
+			<li><a href="">Order</a></li>
+			<li><a href="">Daily Offers</a></li>
+			<li><a href="">News</a></li>
+			<li><a href="">About Us</a></li>
 		</ul>
 	</div>
-	<div id="page-content"></div>
+	<br><br><br>
+	<div id="page-content">
+		<h2>Shop by Category</h2>
+		<h5>View more ></h5>
+		<div id="category">
+		
+			<div class="card">
+				<img src="images/mother.png" alt="mom and baby" style="width:70%; margin-left:12px;">
+				<div class="container">
+					<h4><b>Mom & Baby</b></h4>
+				</div>
+			</div>
+			<div class="card">
+				<img src="images/smart-watch.png" alt="Devices" style="width: 70%; margin-left:30px;" >
+				<div class="container">
+					<h4><b>Devices</b></h4>
+				</div>
+			</div>
+			<div class="card">
+				<img src="images/runner.png" alt="fitness" style="width:68%; margin-left:18px;">
+				<div class="container">
+					<h4><b>Fitness</b></h4>
+				</div>
+			</div>
+			<div class="card">
+				<img src="images/contraceptive.png" alt="contraceptive" style="width:68%; margin-left:20px;">
+				<div class="container">
+					<h4><b>Sexual Wellness</b></h4>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<h2>Top Brands</h2>
+		<div id="brands">
+			
+		</div>
+		<h2>New Arrival</h2>
+		<div id="New-Arrival">
+			<br><br><br><br><br><br>
+		</div>
+		<h2>Men's Grooming</h2>
+		<div id="men">
+			<br><br><br><br><br><br>
+		</div>
+		<div id="beauty">
+			<h2>Beauty Corner</h2>
+			<br><br><br><br><br><br>
+		</div>
+	</div>
 	<div id="footer"></div>
 </body>
 </html>
